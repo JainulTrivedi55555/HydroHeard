@@ -1,2 +1,2 @@
 # HydroHeard
-Dual-solution hackathon project tackling elephant voice recognition and rainwater harvesting at HackSMU VII
+HackSMU VII: Two challenges, two projects, 24 hours — tackling elephant audio intelligence and Smart rainwater harvesting.
