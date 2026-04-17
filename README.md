@@ -13,8 +13,11 @@ Both systems were independently built and combined into a single repository with
 HydroHeard brings together sustainability + AI for real-world impact:
 
 Hydro tackles large-scale water waste in data centers by identifying high-value rainwater harvesting opportunities
-Heard (RUMBLR) uses machine learning and signal processing to denoise, classify, and interpret elephant communication, helping conservation efforts
+
+Heard uses machine learning and signal processing to denoise, classify, and interpret elephant communication, helping conservation efforts
+
 💧 Hydro — Smart Water Harvesting Engine
+
 💡 Problem
 
 Data centers consume millions of gallons of water annually, while vast amounts of rainwater go unused. Identifying viable harvesting opportunities across thousands of facilities is extremely difficult manually.
@@ -39,7 +42,9 @@ MongoDB Atlas
 Leaflet.js (mapping)
 Recharts (analytics)
 Auth0, ElevenLabs, DigitalOcean
+
 🐘 Heard (RUMBLR) — Elephant Audio Intelligence
+
 💡 Problem
 
 Elephant vocalizations overlap with mechanical noise (planes, engines), making many recordings unusable for research.
@@ -54,6 +59,7 @@ Maps emotional state (valence-arousal model)
 Translates sounds into plain English (via Gemini)
 Generates audio output (via ElevenLabs)
 Triggers alerts for distress calls
+
 🧠 Core Innovation
 
 A harmonic-based denoising pipeline that exploits elephant vocal structure:
@@ -69,6 +75,7 @@ This approach preserves elephant signals while removing overlapping mechanical n
 🎯 92.2% model accuracy (small dataset)
 ⚡ 0.41 ms inference time
 🔬 Novel signal-processing approach for bioacoustics
+
 🛠️ Tech Stack
 Python
 librosa
@@ -76,9 +83,10 @@ scikit-learn
 XGBoost + Random Forest
 Flask
 Gemini API, ElevenLabs API
+
 🏁 Hackathon Note
 
-Both Hydro and Heard (RUMBLR) were:
+Both Hydro and Heard were:
 
 Designed
 Built
@@ -87,20 +95,27 @@ Integrated
 within 24 hours during a hackathon challenge.
 
 📁 Repository Structure
+
 HydroHeard/
+
 │
+
 ├── Hydro/     # Water harvesting analytics engine
+
 ├── Heard/     # Elephant audio intelligence (RUMBLR)
+
 └── README.md
+
 🔮 Future Work
 Real-time deployment (IoT / edge devices)
 Satellite-based roof analysis (Hydro)
 CNN-based audio models (Heard)
 Automated detection pipelines
 CRM / enterprise integration
+
 🤝 Contributors
 
-(Add your team members here)
+Priyen Parekh, Devarsh Shah, Darshilkumar Italiya
 
 ⚡ Why This Stands Out
 Combines AI + sustainability + conservation
@@ -109,4 +124,5 @@ Strong mix of:
 Data engineering
 Machine learning
 full-stack development
-Built under extreme hackathon constraints (24 hours)
+
+- Built under extreme hackathon constraints (24 hours)
