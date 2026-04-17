@@ -1,0 +1,282 @@
+.state-analytics {
+  padding: 12px 14px;
+  overflow-y: auto;
+  flex: 1;
+  background: #f8faf6;
+}
+
+.sa-loading {
+  padding: 40px;
+  text-align: center;
+  color: #6b8a72;
+  font-family: 'Space Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+/* Header */
+.sa-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e4ede6;
+}
+
+.sa-state-name {
+  font-size: 18px;
+  font-weight: 800;
+  color: #0f2318;
+  margin: 0;
+}
+
+.sa-subtitle {
+  font-family: 'Space Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: #6b8a72;
+}
+
+.sa-grade {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 14px;
+  border-radius: 10px;
+  border: 2px solid;
+}
+
+.sa-grade-label {
+  font-family: 'Space Mono', monospace;
+  font-size: 7px;
+  letter-spacing: 2px;
+}
+
+.sa-grade-value {
+  font-family: 'Space Mono', monospace;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+/* Metrics */
+.sa-metrics {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.sa-metric {
+  background: #fff;
+  border-radius: 8px;
+  padding: 10px 6px;
+  text-align: center;
+  border: 1px solid #e4ede6;
+}
+
+.sa-metric-val {
+  font-size: 14px;
+  font-weight: 800;
+  font-family: 'Space Mono', monospace;
+}
+
+.sa-metric-label {
+  font-size: 6px;
+  color: #6b8a72;
+  font-family: 'Space Mono', monospace;
+  letter-spacing: 1px;
+  margin-top: 2px;
+}
+
+/* Comparisons */
+.sa-comparisons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.sa-comparison {
+  background: #fff;
+  border-radius: 8px;
+  padding: 10px 12px;
+  border: 1px solid #e4ede6;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.sa-comp-label {
+  font-family: 'Space Mono', monospace;
+  font-size: 7px;
+  letter-spacing: 1px;
+  color: #6b8a72;
+}
+
+.sa-comp-val {
+  font-size: 14px;
+  font-weight: 700;
+  color: #0f2318;
+  font-family: 'Space Mono', monospace;
+}
+
+.sa-comp-vs {
+  font-size: 9px;
+  color: #0ea5e9;
+  font-family: 'Space Mono', monospace;
+}
+
+/* Chart sections */
+.sa-chart-section {
+  background: #fff;
+  border-radius: 8px;
+  padding: 10px 12px;
+  border: 1px solid #e4ede6;
+  margin-bottom: 10px;
+}
+
+.sa-chart-title {
+  font-family: 'Space Mono', monospace;
+  font-size: 8px;
+  letter-spacing: 2px;
+  color: #6b8a72;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.sa-section {
+  background: #fff;
+  border-radius: 8px;
+  padding: 10px 12px;
+  border: 1px solid #e4ede6;
+  margin-bottom: 10px;
+}
+
+/* Charts row */
+.sa-charts-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.sa-chart-half {
+  background: #fff;
+  border-radius: 8px;
+  padding: 10px 12px;
+  border: 1px solid #e4ede6;
+}
+
+/* Prospects */
+.sa-prospects {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.sa-prospect {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  background: #f6f9f4;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.sa-prospect:hover {
+  background: #e0f5d8;
+  transform: translateX(2px);
+}
+
+.sa-prospect-rank {
+  font-family: 'Space Mono', monospace;
+  font-size: 11px;
+  font-weight: 700;
+  color: #0ea5e9;
+  width: 24px;
+  flex-shrink: 0;
+}
+
+.sa-prospect-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.sa-prospect-name {
+  font-size: 11px;
+  font-weight: 700;
+  color: #0f2318;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sa-prospect-sub {
+  font-size: 9px;
+  color: #6b8a72;
+}
+
+.sa-prospect-stats {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.sa-prospect-stat {
+  font-family: 'Space Mono', monospace;
+  font-size: 9px;
+}
+
+/* Counties */
+.sa-counties {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sa-county-row {
+  display: grid;
+  grid-template-columns: 90px 60px 1fr 60px;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Space Mono', monospace;
+  font-size: 9px;
+}
+
+.sa-county-name {
+  color: #0f2318;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sa-county-count {
+  color: #6b8a72;
+  font-size: 8px;
+}
+
+.sa-county-bar-bg {
+  height: 6px;
+  background: #e5e7eb;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.sa-county-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #16a34a, #0ea5e9);
+  border-radius: 3px;
+  transition: width 0.5s ease;
+}
+
+.sa-county-val {
+  color: #f59e0b;
+  font-weight: 700;
+  text-align: right;
+}
