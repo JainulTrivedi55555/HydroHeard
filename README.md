@@ -3,6 +3,7 @@
 HydroHeard is a dual-project hackathon solution combining:
 
 💧 Hydro — an intelligent rainwater harvesting opportunity engine
+
 🐘 Heard — an AI-powered elephant audio intelligence system
 
 Both systems were independently built and combined into a single repository within 24 hours during a hackathon challenge.
